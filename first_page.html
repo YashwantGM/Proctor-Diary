@@ -1,14 +1,16 @@
 <html>
     <head>
-  <title>Student Details</title>
+  	<title>Student Details</title>
         <style type="text/css">
             input{width="600px";height:35px}
             body {background-color:blueviolet;}
             table{background-color: papayawhip;}
         </style>
+        
     </head>
   <body>
-  <div>
+  <h2 align="center"><u>Enter Student Personal Details</u></h2>
+  <div align="center">
         <form action="trial.php" method="POST" >
             <table  border="1">
                 <tr>  <td>NAME</td>
@@ -16,7 +18,7 @@
 	               </tr>
                 <tr>
                     <td>USN</td>
-                    <td width="400px"><input type="text" name="usn" size="61" maxlength="400" required/></td>
+                    <td width="400px"><input type="text" name="usn" id="usn" size="61" maxlength="400" required/></td>
                 </tr>
 				<tr>
 				<td>STUDENT DOB</td>
@@ -24,7 +26,7 @@
 				</tr>
 				<td>PARENT NAME</td>
      		<td><table border="1"></td>
-  				<tfoot>	
+  				
 				<tr>
 				<th width="150px">FATHER</th>
  				 <td width="250px"><input type="text" name="nfather" size="37" maxlength="250" required/></td>
@@ -33,13 +35,13 @@
                 <th width="150px">MOTHER</th>
 				<td width="250px"> <input type="text" name="nmother" size="37" maxlength="250" required/></td>
 				</tr>
-				</tfoot>				
+								
 			</table>
 			<tr>
 			</tr>	
 				<td>OCUUPATION</td>
-			<td><table border="1" </td>
- 				<tfoot>	
+			<td><table border="1" ></td>
+ 				
 				<tr>
 				<th width="150px">FATHER</th>
  			 <td width="250px"><input type="text" name="ofather" size="37" maxlength="250" required/></td>
@@ -49,13 +51,13 @@
  			<td width="250px"> <input type="text" name="omother" size="37" maxlength="250" required/></td>
 			</tr>
 			<tr>
-			</tfoot>				
+							
 			</table>
 			<tr>
 			</tr>	
 				<td>ADDRESS</td>
-			<td ><table border="1" </td>
-			<tfoot>	
+			<td ><table border="1" ></td>
+			
 			<tr>
 			<th width="150px">PERMANENT</th>
        		<td width="250px"><input type="text" name="paddress" size="37" maxlength="250" required/></td>
@@ -65,16 +67,16 @@
  			<td width="250px"> <input type="text" name="laddress" size="37" maxlength="250" required/></td>
 			</tr>
 			<tr>
-			</tfoot>				
+							
 			</table>
 			<tr>
 			</tr>	
  			<td>CONTACT NUMBER AND EMAIL ID</td>
-			<td><table  border="1"</td>
-			<tfoot>	
+			<td><table  border="1"></td>
+			
 			<tr>
 			<th width="150px">STUDENT</th>
-		    <td width="250px"><input type="text" name="semail" size="37" maxlength="250" required/></td>
+		    <td width="250px"><input type="text" name="semail" id="semail" size="37" maxlength="250" required/></td>
 			</tr>
 			<tr>
             <th width="150px">GUARDIAN</th>
@@ -84,13 +86,14 @@
 			<th width="150px">PARENT</th>
 			<td width="250px"> <input type="text" name="pemail" size="37" maxlength="250" required/></td>
  			</tr>
-			</tfoot>
+	
 						
  </table>
-          	<input type="Submit" value="Submit" name="">   
+        <input type="Submit" value="Submit" >   	  
  </form>
+
  </div> 
- 
+ 			
 
  </body>
 </html>
